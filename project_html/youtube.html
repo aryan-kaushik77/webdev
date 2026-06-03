@@ -1,5 +1,117 @@
 <!DOCTYPE html>
 <html>
-    <head></head>
-    <body></body>
+    <head>
+        <title>Youtube Clone</title>
+        <style>
+            .thumbnail{
+                width: 300px;
+                display: block;
+                /* image keeps it shape if we dont put height out there */
+            }
+            .search {
+                display: block;
+
+            }
+            .video-author{
+
+            }
+            .video-stats {
+                
+                }
+            .video.preview {
+                display: inline-block;
+                margin-right: 20px;
+                vertical-align: top;
+                
+                /* background-color: rgb(240, 240, 240); */
+            }
+            .channel-picture, .video-info {
+                display: inline-block;
+                vertical-align: top;
+            }
+            .channel-picture img {
+                    width: 40px;
+                    height: 40px;
+                    border-radius: 20px;
+                    object-fit: cover;
+                    object-position: center;
+                    margin-right: 10px;
+                    margin-top: 15px;
+                }
+            .video-info {
+                    width: 250px;
+                    }
+            
+        </style>
+    </head>
+    <body>
+        <input class="search" type="text" placeholder="Search">
+         <!-- <input class="search" type="checkbox"> -->
+          <!-- # 1 image checkbox and searchbar -->
+        <div class="video preview">
+        <div>
+            <img class="thumbnail" src="thumbnail/thumbnail-1.webp">
+        <!-- img and input are void elements -->
+        </div>
+        <div class="channel-picture">            
+        <img src="channels/channel-1.jpeg">
+        </div>
+        <div class="video-info">
+        <p class="video-title">
+            Talking Tech and AI with Google CEO Sundar Pichai!
+        </p>
+            <p class="video-author">
+                Marques Brownlee
+                <!--#2 block element blocks whole line like <p> 
+                    inline block element takes as much space as it needs like 
+                    inline appear within line like strong
+                    * image keeps it shape if we dont put height out there */
+                    /* cover is to make like border and contain for image shape */   -->
+            </p>
+        <p class="video-stats">
+            3.4M views &#183; 6 months ago
+        </p>
+        </div>
+        </div>
+        
+        </div>
+        <!-- #3 div is like a container and can contain various elements and is block element
+         individual elements styles remain same that are in div
+         now block ements will take entire line of that container
+          -->
+        <div class="video preview">
+        <div>
+            <img class="thumbnail" src="thumbnail/thumbnail-2.webp">
+        <!-- img and input are void elements -->
+        </div>
+        <div class="channel-picture">            
+        <img src="channels/channel-2.jpeg">
+        </div>
+        <div class="video-info">
+        <p class="video-title">
+            Try Not To Laugh Challenge #9
+        </p>
+            <p class="video-author">
+                Markiplier
+                <!--#2 block element blocks whole line like <p> 
+                    inline block element takes as much space as it needs like 
+                    inline appear within line like strong
+                    * image keeps it shape if we dont put height out there */
+                    /* cover is to make like border and contain for image shape */   -->
+            </p>
+        <p class="video-stats">
+            19M views &#183; 4 years ago
+        </p>
+        </div>
+        </div>
+        
+        </div>
+        <!-- #3 div is like a container and can contain various elements and is block element
+         individual elements styles remain same that are in div
+         now block ements will take entire line of that container
+          -->
+        <!-- #4 div can be used to make layout as for nested div we take one div for vertical section while for horizontal section we
+         take multiple div inside one vertical div -->
+    
+    </body>
 </html>
