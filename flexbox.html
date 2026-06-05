@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Flexbox Practice</title>
+  </head>
+  <body style="padding-bottom: 1000px;">
+    <div style="
+      display: flex;
+      flex-direction: row;
+    ">
+      <div style="background-color: lightblue;">div 1 text</div>
+      <div style="background-color: lightpink;">div 2 <p>text</p></div>
+    </div>
+    <!-- flex takes it width with it while grid has fixed so grid is more rigid -->
+
+    <div style="
+      margin-top: 30px;
+      display: flex;
+      flex-direction: row;
+    ">
+      <div style="
+        background-color: lightblue;
+        width: 100px;
+      ">100px</div>
+      <div style="
+        background-color: lightpink;
+        flex: 1;
+      ">flex: 1</div>
+    </div>
+
+    <div style="
+      margin-top: 30px;
+      display: flex;
+      flex-direction: row;
+    ">
+      <div style="
+        background-color: lightblue;
+        flex: 1;
+      ">flex: 1</div>
+      <div style="
+        background-color: lightpink;
+        width: 100px;
+      ">100px</div>
+      <div style="
+        background-color: lightblue;
+        flex: 2;
+      ">flex: 2</div>
+    </div>
+    <!-- 1 and 2 represent the fraction of available space -->
+
+    <div style="
+      margin-top: 30px;
+      height: 70px;
+      border-width: 1px;
+      border-style: solid;
+      border-color: gray;
+
+      display: flex;
+      flex-direction: row;
+      justify-content: center; 
+    ">
+    <!-- start end and center -->
+      <div style="
+        background-color: lightblue;
+        width: 100px;
+      ">100px</div>
+      <div style="
+        background-color: lightpink;
+        width: 100px;
+      ">100px</div>
+      <div style="
+        background-color: lightblue;
+        width: 100px;
+      ">100px</div>
+    </div>
+
+    <div style="
+      margin-top: 30px;
+      height: 70px;
+      border-width: 1px;
+      border-style: solid;
+      border-color: gray;
+
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    ">
+    <!-- space-between distributes items with equal space between them -->
+      <div style="
+        background-color: lightblue;
+        width: 100px;
+      ">100px</div>
+      <div style="
+        background-color: lightpink;
+        width: 100px;
+      ">100px</div>
+      <div style="
+        background-color: lightblue;
+        width: 100px;
+      ">100px</div>
+    </div>
+
+    <div style="
+      margin-top: 30px;
+      height: 70px;
+      border-width: 1px;
+      border-style: solid;
+      border-color: gray;
+
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+    ">
+    <!-- start end and center are the options -->
+      <div style="
+        background-color: lightblue;
+        width: 100px;
+      ">100px</div>
+      <div style="
+        background-color: lightpink;
+        width: 100px;
+      ">100px</div>
+      <div style="
+        background-color: lightblue;
+        width: 100px;
+      ">100px</div>
+    </div>
+  </body>
+</html>
