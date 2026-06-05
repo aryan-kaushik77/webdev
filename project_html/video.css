@@ -35,14 +35,13 @@
                     height: 40px;
                     border-radius: 20px;
                     object-fit: cover;
-                    object-position: center;
-                    
-                    
+                    object-position: center;                    
                 }
 
             .video-info-grid {
                 display: grid;
                 grid-template-columns: 50px 1fr;
+                
                 /* background-color: aliceblue; */
             }
             .video-grid{
@@ -50,6 +49,8 @@
                 grid-template-columns: 1fr 1fr 1fr ;
                 column-gap: 20px;
                 row-gap: 40px;
+                background-color: rgb(250, 250, 250);
+                padding-top: 25px;
                 /* background-color: rgb(240, 18, 18); */
                 /* #5 dont use the width in any div when usinghg grid  */
             }

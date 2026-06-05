@@ -8,7 +8,19 @@
 }
 .left.section {
         width: 150px;
-        background-color: rgb(227, 65, 64);
+        /* background-color: rgb(227, 65, 64); */
+        display: flex;
+        align-items: center;
+        padding-right: 20px;
+
+}
+.menu {
+        height: 22px;
+        margin-left: 22px;
+        margin-right: 25px;
+}
+.logo {
+        height: 20px;
 }
 .middle.section {
         flex: 1;
@@ -16,11 +28,72 @@
         margin-left: 70px;
         margin-right: 20px;
         max-width: 500px;
-        background-color: rgb(64, 227, 170);
-        /* sets up the maximum width for the middle section */
-        
+        /* background-color: rgb(64, 227, 170); */
+        display: flex;
+        align-items: center;
+        /* sets up the maximum width for the middle section */        
+}
+.search {
+        flex: 1;
+        height: 33px;
+        /* border: none; */
+        /* background-color: rgb(227, 227, 227); */
+        padding-left: 15px;
+        font-size: 15px;
+        border: 1px solid rgb(212, 211, 211);
+        box-shadow: inset 1px 2px 5px rgba(0, 0, 0, 0.05);
+        width:0;
+}
+.search:focus { 
+        outline: none;
+        border: 1px solid rgb(158, 158, 249);
+        /* box-shadow: 0 0 0 3px rgba(134, 134, 233, 0.12); */
+        /* box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.01); */
+}
+.search-icon {
+        height: 25px;
+        padding: 5px;
+        /* margin-left: 15px; */
+        border: 1px solid rgb(180, 179, 179);
+        width: 53px;
+        background-color: rgb(246, 246, 246);
+        border: 1px solid rgb(212, 211, 211);
+        margin-left: -1px;
+}
+.search-icon:hover {
+        /* border: 1px solid rgb(134, 134, 233); */
+        background-color: rgb(229, 229, 229);
+}
+.mic-icon {
+        height: 25px;
+        padding: 7px;
+        /* width: 30px; */
+        margin-left: 6px;
+        /* border: 1px solid rgb(180, 179, 179); */
+        background-color: rgb(246, 246, 246);
+        border-radius: 50%;
+
 }
 .right.section {
-        width: 150px;
-        background-color: rgb(227, 65, 64);
+        width: 170px;
+        /* background-color: rgb(227, 65, 64); */
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-right: 20px;
+        margin-left: 10px;
+        flex-shrink: 0;
+}
+.upload-icon, .apps-icon, .notification-icon {
+        height: 25px;
+        /* padding: 5px;
+        margin-right: 18px; */
+}
+.profile-icon {
+        /* border-radius: 50%;
+        object-fit: cover;
+        object-position: center;
+        margin-right: 25px; */
+        height: 32px;
+
 }
