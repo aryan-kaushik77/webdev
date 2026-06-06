@@ -12,16 +12,29 @@
         /* padding-top: 20px; */
 }
 .sidebar-section {
-        margin-top: 20px;
+        /* margin-top: 20px; */
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 25px;
-        margin-bottom: 18px;
+        width: 75px;
+        /* margin-bottom: 18px; */
         font-size: 10px;
+        /* height: 70px; */
+        height: 75px;
+        justify-content: center;
+}
+.home-icon,.explore-icon,.subscriptions-icon,.library-icon,.Original-icon,.youtube-music-icon {
+        width: 24px;
+        height: 24px;
+        /* margin-bottom: 5px; */
 }
 .sidebar-section-title {
         margin-top: 5px;
+}
+.sidebar-section:hover {
+        background-color: rgb(230, 229, 229);
+        cursor: pointer;
+        /* color: rgb(241, 241, 241); */
 }
 /* so use grid whenever you feel like there is aorganized structure to it otherwise use flexbox */
 /* position fixed help us to keep that at the place even when scrolling */

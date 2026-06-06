@@ -13,24 +13,46 @@
     <body>
         <div class="header">
             <div class="left section">
-                <img class="menu" src="icons/hamburger-menu.svg">
-                <img class="logo" src="icons/youtube-logo.svg">
+                <div class="menu-icon-container">
+                    <img class="menu" src="icons/hamburger-menu.svg">
+                    <!-- <div class="menu-tooltip">Menu</div> -->
+                </div>
+                <div class="logo-icon-container">
+                    <img class="logo" src="icons/youtube-logo.svg">
+                    <!-- <div class="logo-tooltip">YouTube Home</div> -->
+                </div>
             </div>
             <div class="middle section">
                 <input class="search" type="text" placeholder="Search">
-                <img class="search-icon" src="icons/search.svg">
-                <img class="mic-icon" src="icons/voice-search-icon.svg">
+                <div class="search-icon-container">
+                    <img class="search-icon" src="icons/search.svg">
+                    <div class="search-tooltip">Search</div>
+                </div>
+                <div class="mic-icon-container">
+                    <img class="mic-icon" src="icons/voice-search-icon.svg">
+                    <div class="mic-tooltip">Search with your voice</div>
+                </div>
                 <!-- <input class="search" type="checkbox"> -->
                 <!-- # 1 image checkbox and searchbar -->
             </div>
             <div class="right section">
-                <img class="upload-icon" src="icons/upload.svg">
-                <img class="apps-icon" src="icons/youtube-apps.svg">
+                <div class="upload-icon-container">
+                    <img class="upload-icon" src="icons/upload.svg">
+                    <div class="upload-tooltip">Create</div>
+                </div>
+                <div class="apps-icon-container">
+                    <img class="apps-icon" src="icons/youtube-apps.svg">
+                    <div class="apps-tooltip">YouTube apps</div>
+                </div>
                 <div class="notification-container">
                     <img class="notification-icon" src="icons/notifications.svg">
                     <div class="notification-count">9+</div>
+                    <div class="notification-tooltip">Notifications</div>
                 </div>
-                <img class="profile-icon" src="channels/my-channel.jpeg">
+                <div class="profile-icon-container">
+                    <img class="profile-icon" src="channels/my-channel.jpeg">
+                    <!-- <div class="profile-tooltip">Your channel</div> -->
+                </div>
             </div>
         </div>
             <div class="sidebar">
@@ -65,16 +87,20 @@
 
         <div class="video preview">
         <div class="thumbnail-container">
-            <img class="thumbnail" src="thumbnail/thumbnail-1.webp">
+            <a class="thumbnail-link" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" title="Talking Tech and AI with Google CEO Sundar Pichai!">
+                <img class="thumbnail" src="thumbnail/thumbnail-1.webp" alt="Talking Tech and AI with Google CEO Sundar Pichai!">
+            </a>
             <div class="duration">14:20</div>
         </div>
         <div class ="video-info-grid">
         <div class="channel-picture">            
-        <img src="channels/channel-1.jpeg">
+        <a href="https://www.youtube.com/@MKBHD" title="Marques Brownlee">
+            <img src="channels/channel-1.jpeg" alt="Marques Brownlee">
+        </a>
         </div>
         <div class="video-info">
         <p class="video-title">
-            Talking Tech and AI with Google CEO Sundar Pichai!
+            <a class="video-link" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" title="Talking Tech and AI with Google CEO Sundar Pichai!">Talking Tech and AI with Google CEO Sundar Pichai!</a>
         </p>
         <p class="video-author">
                 Marques Brownlee
@@ -88,16 +114,20 @@
 
         <div class="video preview">
         <div class="thumbnail-container">
-            <img class="thumbnail" src="thumbnail/thumbnail-2.webp">
+            <a class="thumbnail-link" href="https://www.youtube.com/watch?v=VIDEO2" title="Try Not To Laugh Challenge #9">
+                <img class="thumbnail" src="thumbnail/thumbnail-2.webp" alt="Try Not To Laugh Challenge #9">
+            </a>
             <div class="duration">8:22</div>
         </div>
         <div class ="video-info-grid">
         <div class="channel-picture">            
-        <img src="channels/channel-2.jpeg">
+        <a href="https://www.youtube.com/channel/CHANNEL2" title="Markiplier">
+            <img src="channels/channel-2.jpeg" alt="Markiplier">
+        </a>
         </div>
         <div class="video-info">
         <p class="video-title">
-            Try Not To Laugh Challenge #9
+            <a class="video-link" href="https://www.youtube.com/watch?v=VIDEO2" title="Try Not To Laugh Challenge #9">Try Not To Laugh Challenge #9</a>
         </p>
             <p class="video-author">
                 Markiplier
@@ -111,16 +141,20 @@
 
         <div class="video preview">
         <div class="thumbnail-container">
-            <img class="thumbnail" src="thumbnail/thumbnail-3.webp">
+            <a class="thumbnail-link" href="https://www.youtube.com/watch?v=VIDEO3" title="Crazy Tik Toks Taken Moments Before DISASTER">
+                <img class="thumbnail" src="thumbnail/thumbnail-3.webp" alt="Crazy Tik Toks Taken Moments Before DISASTER">
+            </a>
             <div class="duration">9:13</div>
         </div>
         <div class ="video-info-grid">
         <div class="channel-picture">            
-        <img src="channels/channel-3.jpeg">
+        <a href="https://www.youtube.com/channel/CHANNEL3" title="SSSniperWolf">
+            <img src="channels/channel-3.jpeg" alt="SSSniperWolf">
+        </a>
         </div>
         <div class="video-info">
         <p class="video-title">
-            Crazy Tik Toks Taken Moments Before DISASTER
+            <a class="video-link" href="https://www.youtube.com/watch?v=VIDEO3" title="Crazy Tik Toks Taken Moments Before DISASTER">Crazy Tik Toks Taken Moments Before DISASTER</a>
         </p>
             <p class="video-author">
                 SSSniperWolf
@@ -134,16 +168,20 @@
 
         <div class="video preview">
         <div class="thumbnail-container">
-            <img class="thumbnail" src="thumbnail/thumbnail-4.webp">
+            <a class="thumbnail-link" href="https://www.youtube.com/watch?v=VIDEO4" title="The Simplest Math Problem No One Can Solve - Collatz Conjecture">
+                <img class="thumbnail" src="thumbnail/thumbnail-4.webp" alt="The Simplest Math Problem No One Can Solve - Collatz Conjecture">
+            </a>
             <div class="duration">22:09</div>
         </div>
         <div class ="video-info-grid">
         <div class="channel-picture">            
-        <img src="channels/channel-4.jpeg">
+        <a href="https://www.youtube.com/channel/CHANNEL4" title="Veritasium">
+            <img src="channels/channel-4.jpeg" alt="Veritasium">
+        </a>
         </div>
         <div class="video-info">
         <p class="video-title">
-            The Simplest Math Problem No One Can Solve - Collatz Conjecture
+            <a class="video-link" href="https://www.youtube.com/watch?v=VIDEO4" title="The Simplest Math Problem No One Can Solve - Collatz Conjecture">The Simplest Math Problem No One Can Solve - Collatz Conjecture</a>
         </p>
             <p class="video-author">
                 Veritasium
@@ -157,16 +195,20 @@
 
         <div class="video preview">
         <div class="thumbnail-container">
-            <img class="thumbnail" src="thumbnail/thumbnail-5.webp">
+            <a class="thumbnail-link" href="https://www.youtube.com/watch?v=VIDEO5" title="Kadane's Algorithm to Maximum Sum Subarray Problem">
+                <img class="thumbnail" src="thumbnail/thumbnail-5.webp" alt="Kadane's Algorithm to Maximum Sum Subarray Problem">
+            </a>
             <div class="duration">11:17</div>
         </div>
         <div class ="video-info-grid">
         <div class="channel-picture">            
-        <img src="channels/channel-5.jpeg">
+        <a href="https://www.youtube.com/channel/CHANNEL5" title="CS Dojo">
+            <img src="channels/channel-5.jpeg" alt="CS Dojo">
+        </a>
         </div>
         <div class="video-info">
         <p class="video-title">
-            Kadane's Algorithm to Maximum Sum Subarray Problem
+            <a class="video-link" href="https://www.youtube.com/watch?v=VIDEO5" title="Kadane's Algorithm to Maximum Sum Subarray Problem">Kadane's Algorithm to Maximum Sum Subarray Problem</a>
         </p>
             <p class="video-author">
                 CS Dojo
@@ -180,16 +222,20 @@
 
         <div class="video preview">
         <div class="thumbnail-container">
-            <img class="thumbnail" src="thumbnail/thumbnail-6.webp">
+            <a class="thumbnail-link" href="https://www.youtube.com/watch?v=VIDEO6" title="Anything You Can Fit In The Circle I'll Pay For">
+                <img class="thumbnail" src="thumbnail/thumbnail-6.webp" alt="Anything You Can Fit In The Circle I'll Pay For">
+            </a>
             <div class="duration">19:59</div>
         </div>
         <div class ="video-info-grid">
         <div class="channel-picture">            
-        <img src="channels/channel-6.jpeg">
+        <a href="https://www.youtube.com/channel/CHANNEL6" title="MrBeast">
+            <img src="channels/channel-6.jpeg" alt="MrBeast">
+        </a>
         </div>
         <div class="video-info">
         <p class="video-title">
-            Anything You Can Fit In The Circle I'll Pay For
+            <a class="video-link" href="https://www.youtube.com/watch?v=VIDEO6" title="Anything You Can Fit In The Circle I'll Pay For">Anything You Can Fit In The Circle I'll Pay For</a>
         </p>
             <p class="video-author">
                 MrBeast
@@ -203,16 +249,20 @@
 
         <div class="video preview">
         <div class="thumbnail-container">
-            <img class="thumbnail" src="thumbnail/thumbnail-7.webp">
+            <a class="thumbnail-link" href="https://www.youtube.com/watch?v=VIDEO7" title="Why Planes Don't Fly Over Tibet">
+                <img class="thumbnail" src="thumbnail/thumbnail-7.webp" alt="Why Planes Don't Fly Over Tibet">
+            </a>
             <div class="duration">10:13</div>
         </div>
         <div class ="video-info-grid">
         <div class="channel-picture">            
-        <img src="channels/channel-7.jpeg">
+        <a href="https://www.youtube.com/channel/CHANNEL7" title="RealLifeLore">
+            <img src="channels/channel-7.jpeg" alt="RealLifeLore">
+        </a>
         </div>
         <div class="video-info">
         <p class="video-title">
-            Why Planes Don't Fly Over Tibet
+            <a class="video-link" href="https://www.youtube.com/watch?v=VIDEO7" title="Why Planes Don't Fly Over Tibet">Why Planes Don't Fly Over Tibet</a>
         </p>
             <p class="video-author">
                 RealLifeLore
@@ -226,16 +276,20 @@
 
         <div class="video preview">
         <div class="thumbnail-container">
-            <img class="thumbnail" src="thumbnail/thumbnail-8.webp">
+            <a class="thumbnail-link" href="https://www.youtube.com/watch?v=VIDEO8" title="Inside The World's Biggest Passenger Plane">
+                <img class="thumbnail" src="thumbnail/thumbnail-8.webp" alt="Inside The World's Biggest Passenger Plane">
+            </a>
             <div class="duration">7:12</div>
         </div>
         <div class ="video-info-grid">
         <div class="channel-picture">            
-        <img src="channels/channel-8.jpeg">
+        <a href="https://www.youtube.com/channel/CHANNEL8" title="Tech Vision">
+            <img src="channels/channel-8.jpeg" alt="Tech Vision">
+        </a>
         </div>
         <div class="video-info">
         <p class="video-title">
-            Inside The World's Biggest Passenger Plane
+            <a class="video-link" href="https://www.youtube.com/watch?v=VIDEO8" title="Inside The World's Biggest Passenger Plane">Inside The World's Biggest Passenger Plane</a>
         </p>
             <p class="video-author">
                 Tech Vision
@@ -249,16 +303,20 @@
 
         <div class="video preview">
         <div class="thumbnail-container">
-            <img class="thumbnail" src="thumbnail/thumbnail-9.webp">
+            <a class="thumbnail-link" href="https://www.youtube.com/watch?v=VIDEO9" title="The SECRET to Super Human STRENGTH">
+                <img class="thumbnail" src="thumbnail/thumbnail-9.webp" alt="The SECRET to Super Human STRENGTH">
+            </a>
             <div class="duration">13:17</div>
         </div>
         <div class ="video-info-grid">
         <div class="channel-picture">            
-        <img src="channels/channel-9.jpeg">
+        <a href="https://www.youtube.com/channel/CHANNEL9" title="ThenX">
+            <img src="channels/channel-9.jpeg" alt="ThenX">
+        </a>
         </div>
         <div class="video-info">
         <p class="video-title">
-            The SECRET to Super Human STRENGTH
+            <a class="video-link" href="https://www.youtube.com/watch?v=VIDEO9" title="The SECRET to Super Human STRENGTH">The SECRET to Super Human STRENGTH</a>
         </p>
             <p class="video-author">
                 ThenX
@@ -272,16 +330,20 @@
 
         <div class="video preview">
         <div class="thumbnail-container">
-            <img class="thumbnail" src="thumbnail/thumbnail-10.webp">
+            <a class="thumbnail-link" href="https://www.youtube.com/watch?v=VIDEO10" title="How The World's Largest Cruise Ship Makes 30,000 Meals Every Day">
+                <img class="thumbnail" src="thumbnail/thumbnail-10.webp" alt="How The World's Largest Cruise Ship Makes 30,000 Meals Every Day">
+            </a>
             <div class="duration">7:53</div>
         </div>
         <div class ="video-info-grid">
         <div class="channel-picture">            
-        <img src="channels/channel-10.jpeg">
+        <a href="https://www.youtube.com/channel/CHANNEL10" title="Business Insider">
+            <img src="channels/channel-10.jpeg" alt="Business Insider">
+        </a>
         </div>
         <div class="video-info">
         <p class="video-title">
-            How The World's Largest Cruise Ship Makes 30,000 Meals Every Day
+            <a class="video-link" href="https://www.youtube.com/watch?v=VIDEO10" title="How The World's Largest Cruise Ship Makes 30,000 Meals Every Day">How The World's Largest Cruise Ship Makes 30,000 Meals Every Day</a>
         </p>
             <p class="video-author">
                 Business Insider
@@ -295,16 +357,20 @@
 
         <div class="video preview">
         <div class="thumbnail-container">
-            <img class="thumbnail" src="thumbnail/thumbnail-11.webp">
+            <a class="thumbnail-link" href="https://www.youtube.com/watch?v=VIDEO11" title="Dubai's Crazy Underwater Train and Other Things #Only in Dubai">
+                <img class="thumbnail" src="thumbnail/thumbnail-11.webp" alt="Dubai's Crazy Underwater Train and Other Things #Only in Dubai">
+            </a>
             <div class="duration">4:10</div>
         </div>
         <div class ="video-info-grid">
         <div class="channel-picture">            
-        <img src="channels/channel-11.jpeg">
+        <a href="https://www.youtube.com/channel/CHANNEL11" title="Destination Tips">
+            <img src="channels/channel-11.jpeg" alt="Destination Tips">
+        </a>
         </div>
         <div class="video-info">
         <p class="video-title">
-            Dubai's Crazy Underwater Train and Other Things #Only in Dubai
+            <a class="video-link" href="https://www.youtube.com/watch?v=VIDEO11" title="Dubai's Crazy Underwater Train and Other Things #Only in Dubai">Dubai's Crazy Underwater Train and Other Things #Only in Dubai</a>
         </p>
             <p class="video-author">
                 Destination Tips
@@ -318,16 +384,20 @@
 
         <div class="video preview">
         <div class="thumbnail-container">
-            <img class="thumbnail" src="thumbnail/thumbnail-12.webp">
+            <a class="thumbnail-link" href="https://www.youtube.com/watch?v=VIDEO12" title="What would happen if you didn't drink water? - Mia Nacamulli">
+                <img class="thumbnail" src="thumbnail/thumbnail-12.webp" alt="What would happen if you didn't drink water? - Mia Nacamulli">
+            </a>
             <div class="duration">4:51</div>
         </div>
         <div class ="video-info-grid">
         <div class="channel-picture">            
-        <img src="channels/channel-12.jpeg">
+        <a href="https://www.youtube.com/channel/CHANNEL12" title="TED-Ed">
+            <img src="channels/channel-12.jpeg" alt="TED-Ed">
+        </a>
         </div>
         <div class="video-info">
         <p class="video-title">
-            What would happen if you didn't drink water? - Mia Nacamulli
+            <a class="video-link" href="https://www.youtube.com/watch?v=VIDEO12" title="What would happen if you didn't drink water? - Mia Nacamulli">What would happen if you didn't drink water? - Mia Nacamulli</a>
         </p>
             <p class="video-author">
                 TED-Ed
@@ -343,3 +413,19 @@
     </div>
     </body>
 </html>
+
+
+<!-- ************************************* -->
+
+<!--1 image and input box
+    2 inline block elements
+    3 div properties
+    4 nested div
+    5 grid - for rigid type of structure
+    6 flexbox for more flexible row and column structure and nest them for more complex structure
+    flex-shrink and width=0concept
+    7 position css for relative absolute and fixed absolute 
+    8 hover info tooltips using position 
+            opacity 0 and 1
+    9 how to add links to image channel and title
+    title colour-inherit and text-decoration: none -->
