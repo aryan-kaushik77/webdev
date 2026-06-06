@@ -1,0 +1,31 @@
+.sidebar {
+        position: fixed;
+        top: 55px;
+        left: 0;
+        bottom: 0;
+        width: 75px;
+        background-color: rgb(255, 255, 255);
+        /* border-right: 1px solid rgb(212, 211, 211); */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* padding-top: 20px; */
+}
+.sidebar-section {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 25px;
+        margin-bottom: 18px;
+        font-size: 10px;
+}
+.sidebar-section-title {
+        margin-top: 5px;
+}
+/* so use grid whenever you feel like there is aorganized structure to it otherwise use flexbox */
+/* position fixed help us to keep that at the place even when scrolling */
+
+/* position absolute is for page window while position fixed is for the browser window */
+/* element written below comes forward while overlapping */
+/* higher z index forward */

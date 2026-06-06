@@ -5,6 +5,17 @@
         flex-direction: row;
         /* background-color: rgb(227, 65, 64); */
         justify-content: space-between;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 55px;
+        /* margin-bottom: 55px; */
+        background-color: rgb(255, 255, 255);
+        z-index: 100;
+        
+
+        /* #6 the position helps us to keep the header at the top and not disappear when scrolling */
 }
 .left.section {
         width: 150px;
@@ -96,4 +107,17 @@
         margin-right: 25px; */
         height: 32px;
 
+}
+.notification-container {
+        position: relative;
+}
+.notification-count {
+        position: absolute;
+        top: -2px;
+        right: -5px;
+        background-color: rgb(227, 65, 64);
+        color: white;
+        font-size: 10px;
+        padding: 2px 5px;
+        border-radius: 10px;
 }
