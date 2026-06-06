@@ -56,7 +56,21 @@
                 /* background-color: rgb(240, 18, 18); */
                 /* #5 dont use the width in any div when usinghg grid  */
                 border-top: 1px solid rgb(212, 211, 211);
-                
+            }
+            @media (min-width: 751px) and (max-width: 999px) {
+                .video-grid {
+                    grid-template-columns: 1fr 1fr 1fr;
+                }
+            }
+            @media (max-width: 750px) {
+                .video-grid {
+                    grid-template-columns: 1fr 1fr ;
+                }    
+            }
+            @media (min-width: 1000px) {
+                .video-grid {
+                    grid-template-columns: 1fr 1fr 1fr 1fr;
+                }
             }
             .thumbnail-container{
                 position: relative;
